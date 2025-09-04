@@ -1,0 +1,3 @@
+
+# Tic-Tac-Toe CLI requirements
+# (Standard library only; no extra packages needed)
