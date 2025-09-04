@@ -1,0 +1,22 @@
+tictactoe-pro/
+│── tictactoe.py              # Main CLI game file (your upgraded version)
+│── requirements.txt          # Dependencies (if any, here minimal)
+│── README.md                 # Project overview, features, usage
+│── LICENSE                   # License (MIT/Apache/GPL etc.)
+│── .gitignore                # Ignore cache/IDE/temp files
+│
+├── data/
+│   └── tictactoe_scores.json # Persistent scoreboard storage (auto-created)
+│
+├── tests/
+│   └── test_tictactoe.py     # Unit tests for game logic
+│
+├── docs/
+│   └── DESIGN.md             # Design decisions, AI logic, feature notes
+│
+├── extras/
+│   ├── ascii_banner.txt      # ASCII banner/logo for fun
+│   └── changelog.md          # Track changes & versions
+│
+└── gui/                      # (Optional future GUI)
+    └── tictactoe_gui.py      # Tkinter version of game
