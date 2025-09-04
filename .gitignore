@@ -1,5 +1,21 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Logs
 *.log
+
+# macOS / Linux / Windows
 .DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env/
+
+# Game data
 data/tictactoe_scores.json
